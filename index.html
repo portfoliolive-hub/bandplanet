@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="./img/favicon-16x16.png" type="image/x-icon">
+    <title>bandplanet</title>
+    <!--bootstrap,fontawesome,owl-->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/all.css" />
+    <link rel="stylesheet" type="text/css" href="./css/flag-icon.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/owl.theme.default.css" />
+    <!--style-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" /> </head>
+
+<body>
+    <!-- navigation-->
+    <div class="main">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand d-none d-sm-none d-md-block" href="#"> <img src="./img/logo.png" width="40" height="50" alt="logo"> </a>
+            <ul class="navbar-nav mr-auto d-flex flex-row ">
+                <li class="nav-item active"> <a class="nav-link" href="#">Music <span
+                            class="sr-only">(current)</span></a> </li>
+                <li class="nav-item"> <a class="nav-link ml-2" href="#">Bands</a> </li>
+                <li class="nav-item"> <a class="nav-link ml-2" href="#">People</a> </li>
+                <li class="nav-item"> <a class="nav-link ml-2" href="#">Event</a> </li>
+                <li class="nav-item"> <a class="nav-link ml-2" href="#">Market</a> </li>
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle ml-2" href="#" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learning</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown06"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Aaction</a> </div>
+                </li>
+            </ul>
+            <form class="form-inline mr-md-3 ml-lg-2 ml-xl-5 my-2 my-md-0 bg-transparent">
+                <input class="form-control bg-transparent" type="text" placeholder="Search"><span class="fa fa-search form-control-feedback ml-n3"></span></form>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarsExample06">
+                <ul class="navbar ml-auto">
+                    <li class="nav-item d-lg-none d-xl-block"> <a href="#" class="nav-link notifications"><i
+                                class="fas fa-envelope"></i><span class="badge">7</span></a> </li>
+                    <li class="nav-item d-lg-none d-xl-block"> <a href="#" class="nav-link notifications"><i
+                                class="fas fa-bell"></i><span class="badge">2</span></a> </li>
+                    <li class="nav-item d-lg-none d-xl-block"> <a href="#" class="nav-link notifications"><i
+                                class="fas fa-user-friends"></i></a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><img src="./img/nav-singer.png" alt="singer" class="avatar" /></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle user-action"><img src="./img/flag-uk.png" class="flag-uk" alt="flag-uk"><span class="text-white pl-1">EN</span><b class="caret text-white"></b></a>
+                        <ul class="dropdown-menu bg-transparent">
+                            <li>
+                                <a href="#" class="dropdown-item text-white"><img src="./img/flag-uk.png" class="flag-uk" alt="flag-uk"><span class="text-white pl-1">SR</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- section hero -->
+        <div class="section--hero py-5" style="background-image: url('./img/concert.jpeg');background-position: center center;background-size: cover;">
+            <div class="overlay"></div>
+            <div class="container pt-5">
+                <h1 class="font-weight-bold text-white text-center py-4">Editors pick</h1>
+                <div class="owl-carousel owl-theme owl-loaded ">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item p-3 bg-white"><img src="./img/6.png" alt="singer" class="img-fluid" style="height:150px;">
+                                <div class="picture--info text-center mt-3">
+                                    <h6>Ian McAlister</h6>
+                                    <h5 class="font-weight-bold">Saturday night</h5>
+                                    <hr class="hr_line">
+                                    <ul class="list-group list-group-horizontal border-0">
+                                        <li class="list-group-item border-0 text-muted"><img src="./img/late.svg" alt="stop-watch" style="height:12px;width:12px">2.53</li>
+                                        <li class="list-group-item border-0 text-muted"><img src="./img/play-button.svg" alt="play-buton" style="height:12px;width:12px;">17</li>
+                                        <li class="list-group-item border-0 text-muted"><img src="./img/like.svg" alt="like" style="height:12px;width:12px;">17 </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="owl-item p-3 bg-white"><img src="./img/3.png" alt="singer" class="img-fluid" style="height: 150px;">
+                                <div class="picture--info text-center mt-3">
+                                    <h6>Saga Forest</h6>
+                                    <h5 class="font-weight-bold ">Your Love hurts</h5>
+                                    <hr class="hr_line">
+                                    <ul class="list-group list-group-horizontal border-0">
+                                        <li class="list-group-item border-0 text-muted"><img src="./img/late.svg" alt="stop-watch" style="height:12px;width:12px;">2.53</li>
+                                        <li class="list-group-item border-0 text-muted"><img src="./img/play-button.svg" alt="play-buton" style="height:12px;width:12px;">17</li>
+                                        <li class="list-group-item border-0 text-muted"><img src="./img/like.svg" alt="like" style="height:12px;width:12px;">17 </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="owl-item p-3 bg-white">
+                                <div class="container-video">
+                                    <video preload="auto" controls poster="./img/3.png">
+                                        <source src="./img/video.mp4" type="video/mp4"> </video>
+                                    <div class="overlay-video">
+                                        <a href="#" class="play-icon"> <i class="far fa-play-circle"></i> </a>
+                                    </div>
+                                </div>
+                                <div class="picture--info text-center mt-3">
+                                    <h6>American Froggs</h6>
+                                    <h5 class="font-weight-bold ">South Rebels</h5>
+                                    <hr class="hr_line">
+                                    <ul class="list-group list-group-horizontal border-0 text-muted">
+                                        <li class="list-group-item border-0"><img src="./img/late.svg" alt="stop-watch" style="height:12px;width:12px;">2.53</li>
+                                        <li class="list-group-item border-0"><img src="./img/play-button.svg" alt="play-buton" style="height:12px;width:12px;">17</li>
+                                        <li class="list-group-item border-0"><img src="./img/like.svg" alt="like" style="height:12px;width:12px;">17 </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="owl-item p-3 bg-white"><img src="./img/4.png" alt="singer" class="img-fluid" style="height: 150px;">
+                                <div class="picture--info text-center mt-3">
+                                    <h6>Saga Forest</h6>
+                                    <h5 class="font-weight-bold ">Your Love hurts</h5>
+                                    <hr class="hr_line">
+                                    <ul class="list-group list-group-horizontal border-0 text-muted">
+                                        <li class="list-group-item border-0"><img src="./img/late.svg" alt="stop-watch" style="height:12px;width:12px;">2.53</li>
+                                        <li class="list-group-item border-0"><img src="./img/play-button.svg" alt="play-buton" style="height:12px;width:12px;">17</li>
+                                        <li class="list-group-item border-0"><img src="./img/like.svg" alt="like" style="height:12px;width:12px;">17 </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="owl-item p-3 bg-white"><img src="./img/11.png" alt="singer" class="img-fluid" style="height: 150px;">
+                                <div class="picture--info text-center mt-3">
+                                    <h6>Ian McAlister</h6>
+                                    <h5 class="font-weight-bold ">Saturday night</h5>
+                                    <hr class="hr_line">
+                                    <ul class="list-group list-group-horizontal border-0 text-muted">
+                                        <li class="list-group-item border-0"><img src="./img/late.svg" alt="stop-watch" style="height:12px;width:12px;">2.53</li>
+                                        <li class="list-group-item border-0"><img src="./img/play-button.svg" alt="play-buton" style="height:12px;width:12px;">17</li>
+                                        <li class="list-group-item border-0"><img src="./img/like.svg" alt="like" style="height:12px;width:12px;">17 </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="owl-item p-3 bg-white"><img src="./img/3.png" alt="singer" class="img-fluid" style="height: 150px;">
+                                <div class="picture--info text-center mt-3">
+                                    <h6>Ian McAlister</h6>
+                                    <h5 class="font-weight-bold ">Saturday night</h5>
+                                    <hr class="hr_line">
+                                    <ul class="list-group list-group-horizontal border-0 text-muted">
+                                        <li class="list-group-item border-0"><img src="./img/late.svg" alt="stop-watch" style="height:12px;width:12px;">2.53</li>
+                                        <li class="list-group-item border-0"><img src="./img/play-button.svg" alt="play-buton" style="height:12px;width:12px;">17</li>
+                                        <li class="list-group-item border-0"><img src="./img/like.svg" alt="like" style="height:12px;width:12px;">17 </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="owl-item p-3 bg-white"><img src="./img/4.png" alt="singer" class="img-fluid" style="height: 150px;">
+                                <div class="picture--info text-center mt-3">
+                                    <h6>Ian McAlister</h6>
+                                    <h5 class="font-weight-bold ">Saturday night</h5>
+                                    <hr class="hr_line">
+                                    <ul class="list-group list-group-horizontal border-0 text-muted">
+                                        <li class="list-group-item border-0"><img src="./img/late.svg" alt="stop-watch" style="height:12px;width:12px;">2.53</li>
+                                        <li class="list-group-item border-0"><img src="./img/play-button.svg" alt="play-buton" style="height:12px;width:12px;">17</li>
+                                        <li class="list-group-item border-0"><img src="./img/like.svg" alt="like" style="height:12px;width:12px;">17 </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="owl-item p-3 bg-white"><img src="./img/5.png" alt="singer" class="img-fluid" style="height: 150px;">
+                                <div class="picture--info text-center mt-3">
+                                    <h6>Ian McAlister</h6>
+                                    <h5 class="font-weight-bold ">Saturday night</h5>
+                                    <hr class="hr_line">
+                                    <ul class="list-group list-group-horizontal border-0 text-muted">
+                                        <li class="list-group-item border-0"><img src="./img/late.svg" alt="stop-watch" style="height:12px;width:12px;">2.53</li>
+                                        <li class="list-group-item border-0"><img src="./img/play-button.svg" alt="play-buton" style="height:12px;width:12px;">17</li>
+                                        <li class="list-group-item border-0"><img src="./img/like.svg" alt="like" style="height:12px;width:12px;">17 </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section card  -->
+        <div class="section_card">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="background-image: url('./img/rock-singer.png');background-size:cover;">
+                            <div class="card-body mt-5">
+                                <h3 class="card-title text-bold text-center text-white font-weight-bold pt-5">
+                                    Create your Own
+                                </h3>
+                                <hr class="hr_line mt-1" />
+                                <p class="card-text text-center text-white mt-5"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste adipisicing elit ... </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body text-center"> <i class="fas fa-music"></i>
+                                <h3 class="card-title font-weight-bold">Albums</h3>
+                                <p class="card-text font-weight-light text-center"> Create your Album and be discover by your fans </p>
+                                <div class="text-center"> <a href="#" class="btn btn--color-green text-uppercase font-weight-bold btn-md">Create
+                                        Album</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body text-center"> <i class="fas fa-file-audio"></i>
+                                <h3 class="card-title font-weight-bold">Playlists</h3>
+                                <p class="card-text font-weight-light text-center"> Make your Playlists and share your msic wtth others </p>
+                                <div class="text-center"> <a href="#" class="btn btn--color-green text-uppercase font-weight-bold btn-md">Make
+                                        playlist</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body text-center"> <i class="fas fa-compact-disc"></i>
+                                <h3 class="card-title font-weight-bold">Songs</h3>
+                                <p class="card-text font-weight-light text-center"> Upload song and share it with Bandplanet family</p>
+                                <div class="text-center"> <a href="#" class="btn btn--color-green text-uppercase font-weight-bold btn-md mr-auto">upload
+                                        song</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end section card -->
+        <!--section list-->
+        <div class="section_list" style="position: relative">
+            <div class="container">
+                <h1 class="text-center text-white font-weight-bold py-3">Most Popular</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- list group-->
+                        <ul class="list-group pb-2">
+                            <li class="list-group-item active">
+                                <h6 class="text-uppercase text-white font-weight-bold">Songs</h6> </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-1.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-buton"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-2.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-3.png" alt=" image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-1.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-2.png" alt="image">
+                                    <div class="media-body text-left">
+                                        <h6 class="text-dark">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-group pb-2">
+                            <li class="list-group-item active">
+                                <h6 class="text-uppercase text-white font-weight-bold text-left">Albums</h6> </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-7.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-6.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/rock-singer.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-5.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-2.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" style="height:18px;width:18px;"
+                                                alt="play-button">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-group">
+                            <li class="list-group-item active">
+                                <h6 class="text-uppercase text-white font-weight-bold text-left">Playlist</h6> </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/singer-one.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/singer-three.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-4.png" alt=" image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left"> DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media"> <img class="mr-3 img-fluid" src="./img/list-8.png" alt="image">
+                                    <div class="media-body">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="media">
+                                    <iframe width="70" height="80" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <div class="media-body pl-3">
+                                        <h6 class="text-dark text-left">DJ Quatern</h6>
+                                        <p class="text-dark list_title font-weight-bold">Bad and Boujee</p> <span class="list_icon"><img src="./img/late.svg" alt="stop-watch"
+                                                style="height:18px;width:18px;">2.53</span> <span class="list_icon"><img
+                                                src="./img/play-button.svg" alt="play-button"
+                                                style="height:18px;width:18px;">17</span> <span class="list_icon"><img
+                                                src="./img/like.svg" alt="like"
+                                                style="height:18px;width:18px;">17</span> </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end section list-->
+        <!--section song-->
+        <div class="section_song" style="position:relative">
+            <div class="container">
+                <h1 class="text-center font-weight-bold text-dark py-3">Latest</h1>
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-12 ">
+                        <div class="card_song text-center"> <img src="./img/1.png" alt="singer" class="img-fluid "> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12 ">
+                        <div class="card_song text-center"> <img src="./img/9.png" alt="singer" class="img-fluid"> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <div class="card_song text-center"> <img src="./img/2.png" alt="singer" class="img-fluid"> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <div class="card_song text-center"> <img src="./img/3.png" alt="singer" class="img-fluid"> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <div class="card_song text-center"> <img src="./img/5.png" alt="singer" class="img-fluid"> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <div class="card_song text-center"> <img src="./img/7.png" alt="singer" class="img-fluid"> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <div class="card_song text-center"> <img src="./img/6.png" alt="singer" class="img-fluid"> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <div class="card_song text-center"> <img src="./img/8.png" alt="singer" class="img-fluid"> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <div class="card_song text-center"> <img src="./img/10.png" alt="singer" class="img-fluid"> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <div class="card_song text-center"> <img src="./img/11.png" alt="singer" class="img-fluid"> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12 h-100">
+
+                            <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" allowfullscreen=""></iframe>
+                                </div>
+
+
+
+
+
+
+
+<!----
+                        <iframe width="30px" height="160px" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+-->
+                        
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-12">
+                        <div class="card_song text-center"> <img src="./img/4.png" alt="singer" class="img-fluid"> </div>
+                        <div class="card_song--info">
+                            <h6 class="pt-2">Dj Quatern</h6>
+                            <h6 class="font-weight-bold">Bad and Boujee</h6> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end section song-->
+        <!--section faq`s-->
+        <div class="section_faq" style="background-color:#eaf0f6;">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card mb-4 box-shadow" style="height: 320px;"> <img class="card-img-top" src="./img/how-two-one.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold py-2 text-left ">General FAQ`s</h5>
+                                <div class="d-flex justify-content-between align-items-center pt-5">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-md">CATEGORY</button>
+                                    </div> <small class="text-muted"><img src="./img/calendar.svg" alt="calendar"
+                                            style="height:15px;width:15px;"> 12 Nov 2016</small> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card mb-4 box-shadow" style="height: 320px;"> <img class="card-img-top" src="./img/how-to-two.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold py-2 text-left ">General FAQ`s</h5>
+                                <div class="d-flex justify-content-between align-items-center pt-5">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-md">CATEGORY</button>
+                                    </div> <small class="text-muted"><img src="./img/calendar.svg" alt="calendar"
+                                            style="height:15px;width:15px;"> 12 Nov 2016</small> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card mb-4 box-shadow" style="height: 320px;"> <img class="card-img-top" src="./img/how-to-three.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold py-2 text-left ">General FAQ`s</h5>
+                                <div class="d-flex justify-content-between align-items-center pt-5">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-md">CATEGORY</button>
+                                    </div> <small class="text-muted"><img src="./img/calendar.svg" alt="calendar"
+                                            style="height:15px;width:15px;"> 12 Nov 2016</small> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card mb-4 box-shadow card-img-cap" style="height: 320px;"> <img class="card-img-top" src="./img/how-to-four.png" alt="Card image cap">
+                            <div class="overlay-graduate-cap">
+                                <a href="#" class="icon-cap" title="User Profile"> <i class="fas fa-graduation-cap"></i> </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold py-2 text-left ">General FAQ`s</h5>
+                                <div class="d-flex justify-content-between align-items-center pt-5">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-md">CATEGORY</button>
+                                    </div> <small class="text-muted"><img src="./img/calendar.svg" alt="calendar"
+                                            style="height:15px;width:15px;"> 12 Nov 2016</small> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---footer-->
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-12 footer_copyright">
+                    <ul class="list-inline pt-3">
+                        <li class="list-inline-item"> <img src="./img/logo.png" alt="logo"></li>
+                        <li class="list-inline-item"><span class="font-weight-bold">band</span>planet</li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9 col-12 ml-auto footer__nav d-flex justify-content-center mt-1 pt-4">
+                    <ul class="list-inline">
+                        <li class="list-inline-item font-weight-bold text-uppercase border-right pr-2">fedback</li>
+                        <li class="list-inline-item icon--brand"><i class="fab fa-google-plus-g"></i></li>
+                        <li class="list-inline-item icon--brand"><i class="fab fa-twitter"></i></li>
+                        <li class="list-inline-item icon--brand"><i class="fab fa-facebook-f"></i></li>
+                        <li class="list-inline-item about">About <span class="dot"></span></li>
+                        <li class="list-inline-item privacy">Privacy Policy <span class="dot"></span></li>
+                        <li class="list-inline-item terms">Terms &amp; Conditions <span class="dot"></span></li>
+                        <li class="list-inline-item text-muted">Bandplanet &copy;2017</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.video.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
